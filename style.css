@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
 
 :root{
     --branco: white;
@@ -6,8 +6,7 @@
     --fundo-senha: #1f6fb2;
     --fundo-texto: #144d7a;
     --borda: #7ec8e3;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --fonte-principal: 'Yuyu', sans-serif;
 }
 
 *{
@@ -17,11 +16,11 @@
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family: var(--fonte-principal);
 }
 
 .titulo-principal{
-    font-family: var(--roboto-mono);
+    font-family: var(--fonte-principal);
     font-size: 32px;
 }
 
@@ -45,7 +44,7 @@ body{
     background-color: var(--fundo-senha);
     border: none;
     color: var(--branco);
-    font-family: var(--roboto-mono);
+    font-family: var(--fonte-principal);
     font-size: 40px;
     width: 70%;
 }
@@ -67,7 +66,7 @@ body{
 }
 
 .parametro-titulo{
-    font-family: var(--roboto-mono);
+    font-family: var(--fonte-principal);
     font-size: 28px;
 }
 
